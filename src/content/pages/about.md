@@ -1,9 +1,9 @@
 ---
 title: "About"
-description: "A student portfolio starter for Sucheendra."
+description: "A student portfolio starter."
 ---
 
-Hi, I’m **Sucheendra** — a student building a clean portfolio and blog with AstroPaper.
+Hi, I’m **Your Name** — a student building a clean portfolio and blog with AstroPaper.
 
 This site is set up so you can drop in your own data later: bio, college details, projects, notes, and contact links.
 

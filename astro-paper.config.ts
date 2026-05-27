@@ -3,10 +3,10 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "http://localhost:4321/",
-    title: "Sucheendra | Student Portfolio",
+    title: "Student Portfolio",
     description: "A student portfolio and blog built with AstroPaper.",
-    author: "Sucheendra",
-    profile: "https://github.com/such3",
+    author: "Your Name",
+    profile: "https://github.com/your-username",
     ogImage: "default-og.jpg",
     lang: "en",
     timezone: "Asia/Bangkok",
@@ -26,7 +26,7 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   socials: [
-    { name: "github", url: "https://github.com/such3" },
+    { name: "github", url: "https://github.com/your-username" },
     { name: "mail", url: "mailto:you@example.com" },
   ],
   shareLinks: [

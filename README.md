@@ -1,12 +1,12 @@
-# Sucheendra Student Site
+# Student Portfolio Starter
 
 AstroPaper-based starter website for a student portfolio and blog.
 
 ## Run locally
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 ## Edit your data
@@ -18,5 +18,5 @@ npm run dev
 ## Build
 
 ```bash
-npm run build
+pnpm build
 ```

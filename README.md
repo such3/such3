@@ -20,3 +20,7 @@ pnpm dev
 ```bash
 pnpm build
 ```
+
+## Deploy
+
+Push to `main` to deploy automatically to GitHub Pages via `.github/workflows/deploy-pages.yml`.

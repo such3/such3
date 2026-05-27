@@ -16,8 +16,12 @@ import {
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import config from "./astro-paper.config";
 
+const siteUrl = process.env.SITE_URL ?? config.site.url;
+const basePath = process.env.BASE_PATH ?? "/";
+
 export default defineConfig({
-  site: config.site.url,
+  site: siteUrl,
+  base: basePath,
   integrations: [
     mdx(),
     sitemap({

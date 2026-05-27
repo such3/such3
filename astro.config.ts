@@ -17,12 +17,7 @@ import { transformerFileName } from "./src/utils/transformers/fileName";
 import config from "./astro-paper.config";
 
 const siteUrl = process.env.SITE_URL ?? config.site.url;
-const repositoryName = process.env.GITHUB_REPOSITORY?.split("/")[1];
-const basePath =
-  process.env.BASE_PATH ??
-  (process.env.GITHUB_PAGES === "true" && repositoryName
-    ? `/${repositoryName}/`
-    : "/");
+const basePath = process.env.BASE_PATH ?? "/";
 
 export default defineConfig({
   site: siteUrl,
